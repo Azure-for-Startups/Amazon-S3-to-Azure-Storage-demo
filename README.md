@@ -1,7 +1,6 @@
 # Amazon S3 to Azure Storage
 ### Command line cross cloud copy tool
-
-.
+<br>
 
 
 ## Abstract
