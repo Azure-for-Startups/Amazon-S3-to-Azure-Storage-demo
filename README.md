@@ -47,8 +47,8 @@ Command line arguments are parsed by _Parser.Default.ParseArguments_. If options
 
 The following error screen will be shown if the required command line parameters are not provided:
 
-![alt tag](https://github.com/XynergiesLLC/test/blob/master/folder/ErrorScreen.png)
+![alt tag](https://github.com/XynergiesLLC/Amazon-S3-to-Azure-Storage-demo/blob/master/Media/ErrorScreen.png)
 
 If parameters are correct the application writes a copying progress output:
 
-![alt tag](https://github.com/XynergiesLLC/test/blob/master/folder/CopyingProgressOutput.png)
+![alt tag](https://github.com/XynergiesLLC/Amazon-S3-to-Azure-Storage-demo/blob/master/Media/CopyingProgressOutput.png)
