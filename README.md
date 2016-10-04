@@ -1,18 +1,18 @@
 # Amazon S3 to Azure Storage
 ### Command line cross cloud copy tool
-<br>
+
+This tutorial provides a ‘how to’ code sample and library that can be used for recursive copy storage structure from Amazon S3 to Azure storage.  The library also can be used and integrated into any custom solution.  This article is also available in PDF format [here] (Media/Amazon S3 to Azure Blob Storage.pdf).
+
+Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
 
 
-## Abstract
-The following is a ‘how to’ code sample and library that can be used for recursive copy storage structure from Amazon S3 to Azure storage.  The library also can be used and integrated in any custom solution.
+## Introduction
+The S3 to Azure sample illustrates basic principles of copying from Amazon S3 bucket to Azure Storage blob container. The sample tool enables multithreaded asynchronous recursive copying of bucket folder structure and files matching the provided path prefix. A local connection is used to data transfer. The server side copying available on Azure is out of scope for this sample. Although this sample can be used as is and extended for specific user scenarios, it is not intended to be a production ready application.
 
 ## Prerequisites
 - Azure storage account
 - Amazon S3 Account
 - Visual Studio 2015
-
-## Introduction
-The S3 to Azure sample illustrates basic principles of copying from Amazon S3 bucket to Azure Storage blob container. The sample tool enables multithreaded asynchronous recursive copying of bucket folder structure and files matching the provided path prefix. A local connection is used to data transfer. The server side copying available on Azure is out of score for this sample. Also this sample is an illustration and is not intended to be a production ready application, but it can be used as is and extended for specific user scenarios 
 
 ## Source Code
 The sample uses Amazon AWS SDK for .NET to work with Amazon S3 service. Microsoft _WindowsAzure.Storage_ client library is used to work with Microsoft Azure Blob Storage. A _CommandLineParser_ library is a part of the project and is used for command line parsing. 
