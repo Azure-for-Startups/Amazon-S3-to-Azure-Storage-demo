@@ -3,7 +3,7 @@
 
 This tutorial provides a ‘how to’ code sample and library that can be used for recursive copy storage structure from Amazon S3 to Azure storage.  The library also can be used and integrated into any custom solution.  This article is also available in PDF format [here] (Media/Amazon S3 to Azure Blob Storage.pdf).
 
-Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo/issues) and note what document or code base section the feedback is related to.
+Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue](https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo/issues) and note what document or code base section the feedback is related to.
 
 
 ## Introduction
